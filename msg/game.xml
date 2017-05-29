@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<item name="Heap" type="request" cmd="0x20000" desc="心跳包">
+	</item>
+	<item name="Heap" type="response" cmd="0x20000" desc="心跳包">
+		<prop name="time" type="long" desc="当前时间"></prop>
+	</item>
+
+	<item name="EnterWorld" type="response" cmd="0x30001">
+		<prop name="role" type="RoleData" desc="角色"></prop>
+		<prop name="packs" type="[]PackData" desc="背包数据"></prop>
+		<prop name="modules" type="[]Short" desc="开启模块"></prop>
+		<prop name="customize" type="String" desc="自定义保存参数"></prop>
+	</item>
+
+</root>
