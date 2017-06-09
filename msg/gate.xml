@@ -5,7 +5,7 @@
 		<prop name="token" type="String" desc="通行证"></prop>
 		<prop name="platform" type="String" desc="登录平台"></prop>
 	</item>
-	<item name="Login" type="response" cmd="0x10001" desc="登录请求">
+	<item name="Login" type="response" cmd="0x10001" desc="登录返回">
 		<prop name="uid" type="String" desc="玩家ID"></prop>
 		<prop name="token" type="String" desc="通行证"></prop>
 		<prop name="server" type="String" desc="地址"></prop>

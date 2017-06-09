@@ -6,7 +6,7 @@
 		<prop name="time" type="long" desc="当前时间"></prop>
 	</item>
 
-	<item name="EnterWorld" type="response" cmd="0x30001">
+	<item name="EnterWorld" type="response" cmd="0x30001" desc="进入场景（初始化）">
 		<prop name="role" type="RoleData" desc="角色"></prop>
 		<prop name="packs" type="[]PackData" desc="背包数据"></prop>
 		<prop name="modules" type="[]Short" desc="开启模块"></prop>
