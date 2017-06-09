@@ -15,7 +15,7 @@
 
 	<item name="EquipData" parent="ItemData" desc="武器">
 		<prop name="strenthLv" type="int" desc="唯一ID"></prop>
-		<prop name="attributes" type="[]AttributesData>" desc="属性"></prop>
+		<prop name="attributes" type="[]AttributesData" desc="属性"></prop>
 	</item>
 
 	<item name="PackData">
@@ -35,7 +35,7 @@
 		<prop name="name" type="String" desc="姓名"></prop>
 		<prop name="level" type="int" desc="等级"></prop>
 		<prop name="exp" type="long" desc="经验"></prop>
-		<prop name="attributes" type="[]AttributesData>" desc="属性"></prop>
+		<prop name="attributes" type="[]AttributesData" desc="属性"></prop>
 	</item>
 
 </root>
