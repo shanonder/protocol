@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- 自定义类型大驼峰命名-->
+<!-- 基本类型 （包括String） 全小写 -->
 <root>
-	
 	<item name="AttributesData" desc="属性">
-		<prop name="cfgId" type="int" desc="配置表ID"></prop>
+		<prop name="cfgId" type="short" desc="配置表ID"></prop>
 		<prop name="value" type="long"></prop>
 	</item>
 
 	<item name="ItemData" desc="物品">
-		<prop name="insId" type="String" desc="唯一ID"></prop>
-		<prop name="cfgId" type="int" desc="配置表ID"></prop>
-		<prop name="type" type="String" desc="分类"></prop>
+		<prop name="insId" type="string" desc="唯一ID"></prop>
+		<prop name="cfgId" type="short" desc="配置表ID"></prop>
+		<prop name="type" type="string" desc="分类"></prop>
 		<prop name="createTime" type="long" desc="创建时间"></prop>
 	</item>
 
 	<item name="EquipData" parent="ItemData" desc="武器">
-		<prop name="strenthLv" type="int" desc="唯一ID"></prop>
-		<prop name="attributes" type="[]AttributesData>" desc="属性"></prop>
+		<prop name="strenthLv" type="short" desc="唯一ID"></prop>
+		<prop name="attributes" type="[]AttributesData" desc="属性"></prop>
 	</item>
 
 	<item name="PackData">
@@ -30,12 +31,12 @@
 	</item>
 
 	<item name="RoleData">
-		<prop name="insId" type="String" desc="唯一ID"></prop>
+		<prop name="insId" type="string" desc="唯一ID"></prop>
 		<prop name="cfgId" type="int" desc="配置表ID"></prop>
-		<prop name="name" type="String" desc="姓名"></prop>
+		<prop name="name" type="string" desc="姓名"></prop>
 		<prop name="level" type="int" desc="等级"></prop>
 		<prop name="exp" type="long" desc="经验"></prop>
-		<prop name="attributes" type="[]AttributesData>" desc="属性"></prop>
+		<prop name="attributes" type="[]AttributesData" desc="属性"></prop>
 	</item>
 
 </root>

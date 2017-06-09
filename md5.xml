@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <root>
-    <item name="data.xml" hash="494f6ee78d1370fc086573ace26b8b1a"/>
+    <item name="data.xml" hash="ee01ffeb45609a16c92f18de63c46d72"/>
+    <item name="AttributesData" hash="ee01ffeb45609a16c92f18de63c46d72"/>
+    <item name="GridData" hash="ee01ffeb45609a16c92f18de63c46d72"/>
+    <item name="Login"/>
+    <item name="EquipData" hash="ee01ffeb45609a16c92f18de63c46d72"/>
+    <item name="PackData" hash="ee01ffeb45609a16c92f18de63c46d72"/>
+    <item name="EnterWorld"/>
+    <item name="Heap"/>
+    <item name="ItemData" hash="ee01ffeb45609a16c92f18de63c46d72"/>
+    <item name="RoleData" hash="ee01ffeb45609a16c92f18de63c46d72"/>
 </root>
