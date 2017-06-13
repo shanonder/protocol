@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <root>
-    <item name="data.xml" hash="494f6ee78d1370fc086573ace26b8b1a"/>
-    <item name="AttributesData" hash="494f6ee78d1370fc086573ace26b8b1a"/>
-    <item name="GridData" hash="494f6ee78d1370fc086573ace26b8b1a"/>
+    <item name="data.xml" hash="ac352a15447c1ae09498de3779e371de"/>
+    <item name="AttributesData" hash="ac352a15447c1ae09498de3779e371de"/>
+    <item name="RoleCreate"/>
+    <item name="LoginGate"/>
     <item name="Login"/>
-    <item name="EquipData" hash="494f6ee78d1370fc086573ace26b8b1a"/>
-    <item name="PackData" hash="494f6ee78d1370fc086573ace26b8b1a"/>
+    <item name="PackData" hash="ac352a15447c1ae09498de3779e371de"/>
     <item name="EnterWorld"/>
     <item name="Heap"/>
-    <item name="ItemData" hash="494f6ee78d1370fc086573ace26b8b1a"/>
-    <item name="RoleData" hash="494f6ee78d1370fc086573ace26b8b1a"/>
+    <item name="RoleEnterWorld"/>
+    <item name="RoleData" hash="ac352a15447c1ae09498de3779e371de"/>
+    <item name="PackAdd"/>
+    <item name="GridData" hash="ac352a15447c1ae09498de3779e371de"/>
+    <item name="PackMove"/>
+    <item name="PackInit"/>
+    <item name="EquipData" hash="ac352a15447c1ae09498de3779e371de"/>
+    <item name="PackSell"/>
+    <item name="ItemData" hash="ac352a15447c1ae09498de3779e371de"/>
+    <item name="PackDelete"/>
 </root>
