@@ -2,40 +2,41 @@
 <root>
 	
 	<item name="AttributesData" desc="属性">
-		<prop name="cfgId" type="int" desc="配置表ID"></prop>
-		<prop name="value" type="long"></prop>
+		<prop name="cfgId" type="int" desc="配置表ID" />
+		<prop name="value" type="long" />
 	</item>
 
 	<item name="ItemData" desc="物品">
-		<prop name="insId" type="String" desc="唯一ID"></prop>
-		<prop name="cfgId" type="int" desc="配置表ID"></prop>
-		<prop name="type" type="String" desc="分类"></prop>
-		<prop name="createTime" type="long" desc="创建时间"></prop>
+		<prop name="insId" type="String" desc="唯一ID" />
+		<prop name="cfgId" type="int" desc="配置表ID" />
+		<prop name="type" type="String" desc="分类" />
+		<prop name="createTime" type="long" desc="创建时间" />
 	</item>
 
 	<item name="EquipData" parent="ItemData" desc="武器">
-		<prop name="strenthLv" type="int" desc="唯一ID"></prop>
-		<prop name="attributes" type="[]AttributesData" desc="属性"></prop>
+		<prop name="strenthLv" type="int" desc="唯一ID" />
+		<prop name="attributes" type="[]AttributesData" desc="属性" />
 	</item>
 
 	<item name="PackData">
-		<prop name="type" type="short" desc="唯一ID"></prop>
-		<prop name="openLength" type="short" desc="开启长度"></prop>
-		<prop name="itemList" type="[]GridData"></prop>
+		<prop name="type" type="short" desc="唯一ID" />
+		<prop name="openLength" type="short" desc="开启长度" />
+		<prop name="itemList" type="[]GridData" />
 	</item>
 
 	<item name="GridData">
-		<prop name="index" type="short" desc="序号"></prop>
-		<prop name="item" type="ItemData" desc="唯一ID"></prop>
+		<prop name="index" type="short" desc="序号" />
+		<prop name="item" type="ItemData" desc="唯一ID" />
 	</item>
 
 	<item name="RoleData">
-		<prop name="insId" type="String" desc="唯一ID"></prop>
-		<prop name="cfgId" type="int" desc="配置表ID"></prop>
-		<prop name="name" type="String" desc="姓名"></prop>
-		<prop name="level" type="int" desc="等级"></prop>
-		<prop name="exp" type="long" desc="经验"></prop>
-		<prop name="attributes" type="[]AttributesData" desc="属性"></prop>
+		<prop name="insId" type="String" desc="唯一ID" />
+		<prop name="profId" type="int" desc="职业ID" />
+		<prop name="serverId" type="short" desc="服务器ID" />
+		<prop name="name" type="String" desc="姓名" />
+		<prop name="level" type="int" desc="等级" />
+		<prop name="exp" type="long" desc="经验" />
+		<prop name="attributes" type="[]AttributesData" desc="属性" />
 	</item>
 
 </root>
