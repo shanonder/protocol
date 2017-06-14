@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <root>
-    <item name="data.xml" hash="494f6ee78d1370fc086573ace26b8b1a"/>
-    <item name="AttributesData" hash="494f6ee78d1370fc086573ace26b8b1a"/>
-    <item name="GridData" hash="494f6ee78d1370fc086573ace26b8b1a"/>
+    <item name="data.xml" hash="f67d8abd5c0270cf2983938580c6b3f7"/>
+    <item name="AttributesData" hash="f67d8abd5c0270cf2983938580c6b3f7"/>
+    <item name="LoginGate"/>
+    <item name="GridData" hash="f67d8abd5c0270cf2983938580c6b3f7"/>
+    <item name="UserInfo" hash="48de6c395c61af6835561193f7f2a6db"/>
     <item name="Login"/>
-    <item name="EquipData" hash="494f6ee78d1370fc086573ace26b8b1a"/>
-    <item name="PackData" hash="494f6ee78d1370fc086573ace26b8b1a"/>
+    <item name="EquipData" hash="f67d8abd5c0270cf2983938580c6b3f7"/>
+    <item name="PackData" hash="f67d8abd5c0270cf2983938580c6b3f7"/>
     <item name="EnterWorld"/>
     <item name="Heap"/>
-    <item name="ItemData" hash="494f6ee78d1370fc086573ace26b8b1a"/>
-    <item name="RoleData" hash="494f6ee78d1370fc086573ace26b8b1a"/>
+    <item name="ItemData" hash="f67d8abd5c0270cf2983938580c6b3f7"/>
+    <item name="RoleData" hash="f67d8abd5c0270cf2983938580c6b3f7"/>
 </root>
