@@ -7,7 +7,7 @@
 	<item name="RoleCreate" type="response" cmd="0x30001" desc="创建角色  {state:200,成功 201:姓名重复 ,202:包含不可用字}">
 	</item>
 	<item name="RoleEnterWorld" type="response" cmd="0x30002" desc="进入场景">
-		<prop name="mapId" type="int" />
+		<prop name="mapId" type="short" />
 		<prop name="posX" type="double" />
 		<prop name="posY" type="double" />
 		<prop name="role" type="RoleData" desc="角色信息" />

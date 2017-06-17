@@ -3,14 +3,14 @@
 	<item name="Heap" type="request" cmd="0x20000" desc="心跳包">
 	</item>
 	<item name="Heap" type="response" cmd="0x20000" desc="心跳包">
-		<prop name="time" type="double" desc="当前时间"></prop>
+		<prop name="time" type="double" desc="当前时间" />
 	</item>
 
-	<item name="EnterWorld" type="response" cmd="0x30001" desc="进入场景（初始化）">
-		<prop name="role" type="RoleData" desc="角色"></prop>
-		<prop name="packs" type="[]PackData" desc="背包数据"></prop>
-		<prop name="modules" type="[]Short" desc="开启模块"></prop>
-		<prop name="customize" type="String" desc="自定义保存参数"></prop>
+	<item name="EnterWorld" type="response" cmd="0x50001" desc="进入场景（初始化）">
+		<prop name="role" type="RoleData" desc="角色" />
+		<prop name="packs" type="[]PackData" desc="背包数据" />
+		<prop name="modules" type="[]short" desc="开启模块" />
+		<prop name="customize" type="string" desc="自定义保存参数" />
 	</item>
 
 </root>
