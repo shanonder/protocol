@@ -3,40 +3,43 @@
 	
 	<item name="AttributesData" desc="属性">
 		<prop name="cfgId" type="int" desc="配置表ID" />
-		<prop name="value" type="double" />
+		<prop name="value" type="f64" />
 	</item>
 
 	<item name="ItemData" desc="物品">
 		<prop name="insId" type="string" desc="唯一ID" />
 		<prop name="cfgId" type="int" desc="配置表ID" />
 		<prop name="type" type="string" desc="分类" />
-		<prop name="createTime" type="double" desc="创建时间" />
+		<prop name="createTime" type="f64" desc="创建时间" />
 	</item>
 
 	<item name="EquipData" parent="ItemData" desc="武器">
-		<prop name="strenthLv" type="int" desc="唯一ID" />
-		<prop name="attributes" type="[]AttributesData" desc="属性" />
+		<prop name="strenthLv" type="i32" desc="唯一ID" />
+		<prop name="attributes" type="array" element="AttributesData" desc="属性" />
 	</item>
 
 	<item name="PackData">
 		<prop name="type" type="short" desc="唯一ID" />
 		<prop name="openLength" type="short" desc="开启长度" />
-		<prop name="itemList" type="[]GridData" />
+		<prop name="itemList" type="array" element="GridData"/>
 	</item>
 
 	<item name="GridData">
-		<prop name="index" type="short" desc="序号" />
+		<prop name="index" type="i16" desc="序号" />
 		<prop name="item" type="ItemData" desc="唯一ID" />
 	</item>
 
-	<item name="RoleData">
+	<item name ="RoleBaseData">
 		<prop name="insId" type="string" desc="唯一ID" />
-		<prop name="profId" type="int" desc="职业ID" />
-		<prop name="serverId" type="short" desc="服务器ID" />
+		<prop name="profId" type="i16" desc="职业ID" />
+		<prop name="serverId" type="i16" desc="服务器ID" />
 		<prop name="name" type="string" desc="姓名" />
-		<prop name="level" type="int" desc="等级" />
-		<prop name="exp" type="double" desc="经验" />
-		<prop name="attributes" type="[]AttributesData" desc="属性" />
+		<prop name="level" type="i32" desc="等级" />
+	</item>
+	
+	<item name="RoleDetailData" parent="RoleBaseData">
+		<prop name="exp" type="f64" desc="经验" />
+		<prop name="attributes" type="array" element="AttributesData" desc="属性" />
 	</item>
 
 </root>
