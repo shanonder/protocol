@@ -15,13 +15,13 @@
 
 	<item name="EquipData" parent="ItemData" desc="武器">
 		<prop name="strenthLv" type="int" desc="唯一ID" />
-		<prop name="attributes" type="[]AttributesData" desc="属性" />
+		<prop name="attributes" type="array" element="AttributesData" desc="属性" />
 	</item>
 
 	<item name="PackData">
 		<prop name="type" type="short" desc="唯一ID" />
 		<prop name="openLength" type="short" desc="开启长度" />
-		<prop name="itemList" type="[]GridData" />
+		<prop name="itemList" type="array" element="GridData"/>
 	</item>
 
 	<item name="GridData">

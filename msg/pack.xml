@@ -4,7 +4,7 @@
 		<prop name="type" type="short" desc="包裹类型" />
 	</item>
 	<item name="PackInit" type="response" cmd="0x40001" desc="包裹初始化">
-		<prop name="packs" type="[]PackData" />
+		<prop name="packs" type="array" element="PackData"/>
 	</item>
 	<item name="PackMove" type="request" cmd="0x40002" desc="物品移动">
 		<prop name="type0" type="short" desc="移动源包裹类型" />
